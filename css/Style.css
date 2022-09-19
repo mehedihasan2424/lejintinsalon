@@ -1,0 +1,244 @@
+/* Defolt Css start */
+*{
+    padding: 0;
+    margin: 0;
+}
+.fixt-width{
+    width: 1150px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left{
+    float:left;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.bgc{
+    background-color:#000;
+}
+
+/* Defolt Css End-------------------------------------- */
+/* Covid-19 Style Start */
+.fixt-width.center{
+    width: 63.5%;
+}
+.Covid-19{
+    background-color: #eccf60;
+    height: 45px;  
+}
+.left-content{
+    float: left;
+}
+.left-content p {
+    font-family: happytimes;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 7px;
+    line-height: 28px;
+}
+.right-btn{
+    float: right;
+}
+.right-btn button{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 3px;
+    margin-top: 8px;
+    width: 104px;
+    border-radius: 10px;
+    background-color: #eccf60;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+/* Covid-19 Style End */
+
+/* Header-Menu CSS Start */
+.header{
+    background-color: #151515;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img {
+    max-width: 100%;
+    width: 158px;
+    margin: 10px;
+}
+.header-right{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.header-right ul {}
+.header-right ul li {
+    display: inline-block;
+}
+.header-right ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ECCF60;
+    padding: 47px 40px;
+}
+/* Header-Menu CSS End */
+
+/* Baner section Start */
+.Baner {
+    background: url("../img/homeHeaderBanner.png") center top no-repeat;
+    padding: 250px 0px;
+}
+.baner-caption{}
+.baner-caption h1 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 200;
+    letter-spacing: 27px;
+    width: 465px;
+}
+.baner-caption p {
+    color: #fff;
+    width: 339px;
+    font-size: 20px;
+    margin: 38px 0;
+}
+.baner-caption button{
+    background: none;
+    border: none;
+}
+.baner-caption button a {
+    background: none;
+    color: #ECCF60;
+    border: 2.5px solid #ECCF60;
+    padding: 13px 28px;
+    border-radius: 31px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+    text-decoration: none;
+}
+.baner-caption button a:hover {
+    background: #ECCF60;
+    color: #fff;
+}
+/* Baner section End */
+/* About-us section End */
+.about-us{
+    background: #000;
+    padding-bottom: 100px;
+}
+
+.about-design{
+    height: 40px;
+    width: 250px;
+    border-bottom: 4px solid #ECCF60;
+    color: #fff;
+    padding: 180px 0 0 0;
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    display: inline-block;
+    margin-bottom: 80px;
+    position: relative;
+}
+.about-design img{
+    position: absolute;
+    top: 243px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.about-us p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.about-us button {
+    background: none;
+    border: none;
+    margin-top: 50px;
+}
+.about-us button a {
+    background: none;
+    color: #ECCF60;
+    border: 2.5px solid #ECCF60;
+    padding: 13px 28px;
+    border-radius: 31px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+    text-decoration: none;
+}
+.about-us button a:hover {
+    background: #ECCF60;
+    color: #fff;
+}
+/* About-us section End */
+
+/* Gift-card section Start */
+.gift-card{}
+.gift-item-1{
+    width: 30%;
+    margin-right: 5%;
+    position:relative;
+}
+.goft-card-hover-content {
+    width: 100%;
+    height: 100%;
+    background: #673ca0a9;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+.goft-card-hover-content:hover{
+    visibility: visible;
+}
+
+.gift-item-1 img{
+    border-radius: 15px;
+}
+
+.gift-item-2{
+    width: 30%;
+    margin-right: 5%;
+}
+.gift-item-2 img{
+    border-radius: 15px;
+}
+.gift-item-3{
+    width: 30%;
+}
+.gift-item-3 img{
+    border-radius: 15px;
+}
+
+
+
+}
+.gift-item-2:hover{}
+.gift-item-3:hover{}
+
+/* Gift-card section End */
